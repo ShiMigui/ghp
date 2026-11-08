@@ -1,19 +1,24 @@
 # GHP — Good Hygiene Practices
 
-CLI em **Go** para gerenciar projetos web GHP: desenvolvimento, build e documentação a partir de um template.
+> **Note:** this repository contains an older, standalone GHP CLI implementation.
+> The maintained framework and current releases live at
+> [GHP-GoLang-Framework/ghp](https://github.com/GHP-GoLang-Framework/ghp).
 
-## Comandos
+A Go CLI for managing GHP web projects: development server, build and
+documentation from a template.
 
-| Comando | Descrição |
-|---|---|
-| `ghp dev` | Sobe o servidor de desenvolvimento |
-| `ghp build` | Compila o projeto atual |
-| `ghp help` | Mostra a ajuda |
+## Commands
 
-## Uso
+| Command | Description |
+| --- | --- |
+| `ghp dev` | Start the development server |
+| `ghp build` | Build the current project |
+| `ghp help` | Show help |
+
+## Usage
 
 ```bash
 go run ./cmd/ghp help
 ```
 
-O projeto base usa um template localizado em [`docs/template.ghp`](./docs/template.ghp).
+The base project uses a template located at [`docs/template.ghp`](./docs/template.ghp).
